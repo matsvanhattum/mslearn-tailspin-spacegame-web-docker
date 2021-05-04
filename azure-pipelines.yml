@@ -2,6 +2,7 @@ trigger:
 - '*'
 
 variables:
+  buildconfiguration: 'Release'
   webRepository: 'web'
   tag: '$(Build.BuildId)'
 
